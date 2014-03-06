@@ -1,0 +1,1355 @@
+{
+  "id" : "httpclient",
+  "variants" : [ "2932625f634032797a7889271ef900c58a7718020eba7f020aee43061587ef84", "5811215701ae23db811e9a0a20947003a9f2ad6c66b4bad542862075d74a28cf", "a8f29cde39d7ba61a84bc7980758119af27847197afa79d083e54ea306f05d06", "ab0451b4fbad46a3979aa835136fe203b5b0232c984e65570c4041aebd05256a", "af3ea0399a98dff1b7f37df48e25e7f39c531429dd30f7b90868916e39b5ae91", "16d44cd2df31eb7cb738a1b4ca89f6bef6af7801e88f0d67ed085c5b4971d6b6", "087b7e7db5602239dedd51f30fe9b237420fdee59d2f876ae23a57a61ba7f46f", "92f6a3c1664a3ce2981a7f4cb3425c628b3db747c38ebaf9ba766efc39defd21", "8dae15d21456238c06de07de5bf7f906237d01773b67eb93cd30b60874cbf020", "093d2699836fcf308fc753ddc24a572fa4951fc4dd58b438873a99b2d77e97f4", "942d91a8ee0b1bf0b694f6fb4875f4b101051945a461fefc940f65447c4d2c67" ],
+  "configurations" : [ {
+    "id" : "test",
+    "repositories" : [ {
+      "id" : "commons-logging/config/javadoc",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-codec/config/optional",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/sources",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-codec/config/compile",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/sources",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/default",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "commons-codec/config/default",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/provided",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-logging/config/master",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-codec/config/system",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "httpcore/config/sources",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "httpcore/config/test",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "httpcore/config/runtime",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "commons-codec/config/master",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/provided",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/optional",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/system",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "httpcore",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "httpcore/config/javadoc",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "commons-codec/config/runtime",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/system",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-logging/config/compile",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/provided",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "commons-logging/config/default",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/compile",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "httpcore/config/master",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "commons-codec/config/javadoc",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/test",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/runtime",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-logging/config/test",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/optional",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    } ]
+  }, {
+    "id" : "provided",
+    "repositories" : [ {
+      "id" : "commons-logging/config/javadoc",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-codec/config/optional",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/sources",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-codec/config/compile",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/sources",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/default",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "commons-codec/config/default",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/provided",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-logging/config/master",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-codec/config/system",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "httpcore/config/sources",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "httpcore/config/test",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "httpcore/config/runtime",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "commons-codec/config/master",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/provided",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/optional",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/system",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "httpcore",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "httpcore/config/javadoc",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "commons-codec/config/runtime",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/system",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-logging/config/compile",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/provided",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "commons-logging/config/default",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/compile",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "httpcore/config/master",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "commons-codec/config/javadoc",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/test",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/runtime",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-logging/config/test",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/optional",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    } ]
+  }, {
+    "id" : "system",
+    "repositories" : [ {
+      "id" : "commons-logging/config/javadoc",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-codec/config/optional",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/sources",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-codec/config/compile",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/sources",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/default",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "commons-codec/config/default",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/provided",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-logging/config/master",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-codec/config/system",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "httpcore/config/sources",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "httpcore/config/test",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "httpcore/config/runtime",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "commons-codec/config/master",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/provided",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/optional",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/system",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "httpcore",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "httpcore/config/javadoc",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "commons-codec/config/runtime",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/system",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-logging/config/compile",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/provided",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "commons-logging/config/default",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/compile",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "httpcore/config/master",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "commons-codec/config/javadoc",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/test",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/runtime",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-logging/config/test",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/optional",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    } ]
+  }, {
+    "id" : "master",
+    "repositories" : [ {
+      "id" : "commons-logging/config/javadoc",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-codec/config/optional",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/sources",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-codec/config/compile",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/sources",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/default",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "commons-codec/config/default",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/provided",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-logging/config/master",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-codec/config/system",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "httpcore/config/sources",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "httpcore/config/test",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "httpcore/config/runtime",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "commons-codec/config/master",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/provided",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/optional",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/system",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "httpcore",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "httpcore/config/javadoc",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "commons-codec/config/runtime",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/system",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-logging/config/compile",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/provided",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "commons-logging/config/default",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/compile",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "httpcore/config/master",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "commons-codec/config/javadoc",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/test",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/runtime",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-logging/config/test",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/optional",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    } ]
+  }, {
+    "id" : "optional",
+    "repositories" : [ {
+      "id" : "commons-logging/config/javadoc",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-codec/config/optional",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/sources",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-codec/config/compile",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/sources",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/default",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "commons-codec/config/default",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/provided",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-logging/config/master",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-codec/config/system",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "httpcore/config/sources",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "httpcore/config/test",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "httpcore/config/runtime",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "commons-codec/config/master",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/provided",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/optional",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/system",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "httpcore",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "httpcore/config/javadoc",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "commons-codec/config/runtime",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/system",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-logging/config/compile",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/provided",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "commons-logging/config/default",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/compile",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "httpcore/config/master",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "commons-codec/config/javadoc",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/test",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/runtime",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-logging/config/test",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/optional",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    } ]
+  }, {
+    "id" : "compile",
+    "repositories" : [ {
+      "id" : "commons-logging/config/javadoc",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-codec/config/optional",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/sources",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-codec/config/compile",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/sources",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/default",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "commons-codec/config/default",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/provided",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-logging/config/master",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-codec/config/system",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "httpcore/config/sources",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "httpcore/config/test",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "httpcore/config/runtime",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "commons-codec/config/master",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/provided",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/optional",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/system",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "httpcore",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "httpcore/config/javadoc",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "commons-codec/config/runtime",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/system",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-logging/config/compile",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/provided",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "commons-logging/config/default",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/compile",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "httpcore/config/master",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "commons-codec/config/javadoc",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/test",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/runtime",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-logging/config/test",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/optional",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    } ]
+  }, {
+    "id" : "default",
+    "repositories" : [ {
+      "id" : "commons-logging/config/javadoc",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-codec/config/optional",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/sources",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-codec/config/compile",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/sources",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/default",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "commons-codec/config/default",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/provided",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-logging/config/master",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-codec/config/system",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "httpcore/config/sources",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "httpcore/config/test",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "httpcore/config/runtime",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "commons-codec/config/master",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/provided",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/optional",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/system",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "httpcore",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "httpcore/config/javadoc",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "commons-codec/config/runtime",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/system",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-logging/config/compile",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/provided",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "commons-logging/config/default",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/compile",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "httpcore/config/master",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "commons-codec/config/javadoc",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/test",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/runtime",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-logging/config/test",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/optional",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    } ]
+  }, {
+    "id" : "sources",
+    "repositories" : [ {
+      "id" : "commons-logging/config/javadoc",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-codec/config/optional",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/sources",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-codec/config/compile",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/sources",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/default",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "commons-codec/config/default",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/provided",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-logging/config/master",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-codec/config/system",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "httpcore/config/sources",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "httpcore/config/test",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "httpcore/config/runtime",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "commons-codec/config/master",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/provided",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/optional",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/system",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "httpcore",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "httpcore/config/javadoc",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "commons-codec/config/runtime",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/system",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-logging/config/compile",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/provided",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "commons-logging/config/default",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/compile",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "httpcore/config/master",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "commons-codec/config/javadoc",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/test",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/runtime",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-logging/config/test",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/optional",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    } ]
+  }, {
+    "id" : "javadoc",
+    "repositories" : [ {
+      "id" : "commons-logging/config/javadoc",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-codec/config/optional",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/sources",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-codec/config/compile",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/sources",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/default",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "commons-codec/config/default",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/provided",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-logging/config/master",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-codec/config/system",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "httpcore/config/sources",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "httpcore/config/test",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "httpcore/config/runtime",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "commons-codec/config/master",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/provided",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/optional",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/system",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "httpcore",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "httpcore/config/javadoc",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "commons-codec/config/runtime",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/system",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-logging/config/compile",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/provided",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "commons-logging/config/default",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/compile",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "httpcore/config/master",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "commons-codec/config/javadoc",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/test",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/runtime",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-logging/config/test",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/optional",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    } ]
+  }, {
+    "id" : "runtime",
+    "repositories" : [ {
+      "id" : "commons-logging/config/javadoc",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-codec/config/optional",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/sources",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-codec/config/compile",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/sources",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/default",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "commons-codec/config/default",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/provided",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-logging/config/master",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-codec/config/system",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "httpcore/config/sources",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "httpcore/config/test",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "httpcore/config/runtime",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "commons-codec/config/master",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/provided",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/optional",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/system",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "httpcore",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "httpcore/config/javadoc",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "commons-codec/config/runtime",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/system",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-logging/config/compile",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/provided",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "commons-logging/config/default",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/compile",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "httpcore/config/master",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    }, {
+      "id" : "commons-codec/config/javadoc",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-codec/config/test",
+      "repository" : "commons-codec",
+      "commit" : "d03712710b834e08cffef5cbfaa772e8aa3f28e5"
+    }, {
+      "id" : "commons-logging/config/runtime",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "commons-logging/config/test",
+      "repository" : "commons-logging",
+      "commit" : "b64386552185b9be66aea880f87341dd7daedf77"
+    }, {
+      "id" : "httpcore/config/optional",
+      "repository" : "org.apache.httpcomponents",
+      "commit" : "4fec7606292b41c60999aa7b8f6a628290b69409"
+    } ]
+  } ]
+}
